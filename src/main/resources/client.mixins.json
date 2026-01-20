@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.tr7zw.exordium.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ClientConnectionMixin",
+    "ItemStackMixin",
+    "LivingEntityAccessor",
+    "WorldAccessor"
+  ],
+  "client": [
+    "BufferRendererAccessor",
+    "CameraMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerAccessor",
+    "FrustumAccessor",
+    "GameRendererMixin",
+    "HandledScreenMixin",
+    "InGameHudMixin",
+    "KeyBindingAccessor",
+    "KeyBindingMixin",
+    "KeyboardMixin",
+    "MinecraftClientAccessor",
+    "MinecraftClientMixin",
+    "MouseHandlerAccessor",
+    "MouseMixin",
+    "OtherClientPlayerEntityAccessor",
+    "ScreenMixin",
+    "ShaderProgramAccessor",
+    "WorldRendererAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
